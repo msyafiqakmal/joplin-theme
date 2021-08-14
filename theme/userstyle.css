@@ -45,15 +45,17 @@
     --font-weight-base: 550;
     --font-weight-base-extra: 550;
     --font-weight-bold: 600;
-    --font-title: "GoogleSans Nerd Font";
-    --font-sans: "GoogleSans Nerd Font"; /*Montserrat or Corbel*/
-    --font-mono: "RobotoMono Nerd Font";
+    --font-title: "Montserrat";
+    --font-sans: "Montserrat"; /*Montserrat or Corbel*/
+    --font-icon: "FontAwesome"; /*Bahnschrift */
+    --font-mono: "Ubuntu";
     --primary: var(--yellow);
     --secondary: var(--yellow);
     --font-line-height: 1.4em;
     --font-size: var(--base-size-17);
     --icon-size: var(--font-size);
 }
+
 
 .yellow {
     color: var(--yellow) !important;
@@ -91,6 +93,11 @@
     background-color: black;
     padding: var(--base-size-18);
     border-radius: var(--base-size-4) !important;
+}
+
+/*kmedagreat*/
+.hljs-keyword, .hljs-operator,.hljs-built_in, .hljs-class ,.hljs-title, .hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-string,.hljs-attr, .hljs-variable, .hljs-template-variable, .hljs-type, .hljs-selector-class, .hljs-selector-attr, .hljs-selector-pseudo, .hljs-number,.hljs-comment, .hljs-quote, .hljs-symbol, .hljs-bullet, .hljs-link, .hljs-meta, .hljs-selector-id, .hljs-title {
+    font-family: var(--font-mono) !important;
 }
 
 #rendered-md {
@@ -386,4 +393,36 @@ b-pink {
     border-color: #ed5393;
     background-color: #fad3e5; 
 }
+
+/* checkbox aspect */
+li.md-checkbox [type="checkbox"]:not(:checked) + label:before,
+li.md-checkbox [type="checkbox"]:checked + label:before {
+    content: ''; /* Unchecked glyph*/
+    font-family: var(--font-icon) !important;
+    position: absolute;
+    left: 0; top: -3px;
+    width: 1em; height: 1em;
+    border: 1px solid var(--black);
+    background: var(--black);
+    border-radius: 1px;
+}
+
+/* checked mark aspect */
+li.md-checkbox [type="checkbox"]:not(:checked) + label:after,
+li.md-checkbox [type="checkbox"]:checked + label:after {
+    content: ''; /* Checked glyph*/
+    font-family: var(--font-icon) !important;
+    position: absolute;
+    left: 0; top: -3px;
+    width: 1em; height: 1em;
+    border: 1px solid var(--black);
+    background: var(--black);
+    border-radius: 1px;
+    transition: all .2s;
+    
+}
+.graph-content{
+   font-family: 'Montserrat' !important;
+}
 /**/
+{"mode":"full","isActive":false}
