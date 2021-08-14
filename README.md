@@ -10,6 +10,9 @@ Built upon <a href="https://github.com/amandamcg/joplin-theme" target="blank">Am
 
 ![screenshot1.png](/assets/screenshot1.png)
 
+Updated to make it work with the recent
+![Updated Joplin.png](/assets/Updated Joplin.png)
+
 ## Details: 
 
 These are the resources i added to my theme. The [setup](#setup) section will guide you on how to install it.
