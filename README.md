@@ -10,8 +10,8 @@ Built upon <a href="https://github.com/amandamcg/joplin-theme" target="blank">Am
 
 ![screenshot1.png](/assets/screenshot1.png)
 
-Updated to make it work with the recent
-![Updated Joplin.png](/assets/Updated Joplin.png)
+Updated to make it work with the recent update <br/>
+<img width="100%" src="https://github.com/msyafiqakmal/joplin-theme/blob/master/assets/Updated%20Joplin.png?raw=true" />
 
 ## Details: 
 
